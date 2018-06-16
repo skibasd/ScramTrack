@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59eccb74-5228-4673-9a5a-f5b2192f81b1">
+  <producedTypes>
+    <objectType typeId="e9c09f7f-10cf-4a4b-81cb-5d9011be74b5" valueTypeId="7f001449-aef0-4b00-ac56-6f9da14813ad"/>
+    <refType typeId="288b1fbd-5198-4bf2-93e2-074ef08239e9" valueTypeId="2251ec35-126b-455f-bf4d-e4a9202391bd">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="949abf01-2e02-400c-b640-109837d223db" valueTypeId="debb2f7d-f2fa-4a45-b936-e9a8384376f4"/>
+    <listType typeId="8029331a-56e9-4ce7-a2d4-3e4c812f2188" valueTypeId="c7c4405f-be1b-4940-aeb6-ef1d8063beba"/>
+    <managerType typeId="befbe073-b421-4012-bf36-db4fbfdafebd" valueTypeId="be94c8d5-0900-4e79-8701-45b5cd62fc06"/>
+  </producedTypes>
+  <name>ПользовательскиеИстории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательские истории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПользовательскиеИстории.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПользовательскиеИстории.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

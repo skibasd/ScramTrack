@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd9bb6b-4190-4e57-8626-e4936a618509">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0a28c609-2014-40f0-b74d-7fc234bec452"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6d507d42-2b9e-4a4b-881a-54ac71751b3b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a4ea9c58-7e50-441d-a0f3-f9d46f62d906"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="054cfa04-3fbc-4f8e-9563-085a6055d537"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5c931c21-26f0-49eb-bcf8-a9c4071dd7d2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="55c05898-67cc-45b0-93cb-f12c44a5ace9"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="1618cde3-e48b-443b-a8c9-66b6661aff12">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Команды</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ПользовательскиеИстории</catalogs>
+</mdclass:Configuration>
