@@ -9,10 +9,7 @@
     <value>Владелец характеристики</value>
   </synonym>
   <type>
-    <types>CatalogRef.Пользователи</types>
-    <types>CatalogRef.Команды</types>
     <types>CatalogRef.Задачи</types>
     <types>CatalogRef.ПользовательскиеИстории</types>
-    <types>CatalogRef.Проекты</types>
   </type>
 </mdclass:DefinedType>

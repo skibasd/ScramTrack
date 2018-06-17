@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d5df3d-2d2e-4453-bb59-988a9af99102">
+  <producedTypes>
+    <objectType typeId="1b70355b-d33a-4461-8a9d-699c52b53d3d" valueTypeId="4516e3d1-54b3-4855-af85-cfdce3e2de19"/>
+    <refType typeId="c150e5e3-8f41-4626-9a15-087115cd6f25" valueTypeId="c562f648-f947-4ecf-91bb-2190f2ec8760"/>
+    <selectionType typeId="efac706d-7895-4f55-9687-dd97f04e6e97" valueTypeId="079992e0-b514-43f9-b0ba-3d3f9a5ae47b"/>
+    <listType typeId="506f37ca-be00-44df-85e6-88b59ae9ca8c" valueTypeId="1f9e46e1-a259-41d5-a81d-457ab721681e"/>
+    <managerType typeId="109dec85-e59a-4fb2-93f5-1f52a665be4d" valueTypeId="bae3b60b-e684-4041-ad27-7421d22e8853"/>
+  </producedTypes>
+  <name>ЗадачиВнешние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи внешние</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗадачиВнешние.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗадачиВнешние.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

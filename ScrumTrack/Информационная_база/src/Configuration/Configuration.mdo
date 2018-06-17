@@ -39,6 +39,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеИстории</catalogs>
   <catalogs>Catalog.Задачи</catalogs>
+  <catalogs>Catalog.ЗадачиВнешние</catalogs>
   <informationRegisters>InformationRegister.ЗначенияХарактеристик</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Характеристики</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
