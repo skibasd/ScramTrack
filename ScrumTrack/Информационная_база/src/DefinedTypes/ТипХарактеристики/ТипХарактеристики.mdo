@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8ba7060-cbcd-44a7-9d7d-196fca00a270">
+  <producedTypes>
+    <containerType typeId="fcc3b8b0-0159-4075-a60c-1cb8160d339d" valueTypeId="d5339592-617b-4c08-bd2a-4d8d3cac8272"/>
+  </producedTypes>
+  <name>ТипХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип характеристики</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Команды</types>
+    <types>CatalogRef.Задачи</types>
+    <types>CatalogRef.ПользовательскиеИстории</types>
+    <types>CatalogRef.Проекты</types>
+  </type>
+</mdclass:DefinedType>

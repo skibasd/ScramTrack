@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90a919cd-e90f-44d9-9a94-0837af01d418">
+  <producedTypes>
+    <containerType typeId="b771ec99-69ef-4537-b4a9-6b4d1687923b" valueTypeId="a4098205-b6ce-41d3-8da2-fddf284867ef"/>
+  </producedTypes>
+  <name>ВладелецХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец характеристики</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Команды</types>
+    <types>CatalogRef.Задачи</types>
+    <types>CatalogRef.ПользовательскиеИстории</types>
+    <types>CatalogRef.Проекты</types>
+  </type>
+</mdclass:DefinedType>

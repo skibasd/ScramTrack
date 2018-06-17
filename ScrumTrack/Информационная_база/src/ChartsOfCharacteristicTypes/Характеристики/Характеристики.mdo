@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e941077-32f8-465d-97fb-1e6a7b49f5d3">
+  <producedTypes>
+    <objectType typeId="319c3775-64f6-4a03-aafc-a18f24213491" valueTypeId="bb3a9cd0-df64-46cf-9f0a-d5858de3511a"/>
+    <refType typeId="b10dc084-ef02-4d71-9c01-39fa3c12cd36" valueTypeId="b21bb361-d334-4081-aab1-163a2803c007">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="373f1a6b-c393-4d3c-bc51-1c84f1694253" valueTypeId="65097a7b-0d00-482a-9da4-2b009835e260"/>
+    <listType typeId="2f3761d3-d9ea-42e1-b87b-6b053293a6f5" valueTypeId="fccc13f2-c4e7-4110-9aea-27402a977263"/>
+    <managerType typeId="6d704ef2-7fc4-4687-a84c-0f0149d43c79" valueTypeId="0c6602a6-7d9c-4b1e-9ae3-2b453417b5c1"/>
+    <containerType typeId="82963f50-c17c-4eac-a7b9-6a5e79970cb2" valueTypeId="9b2eb57a-8431-44dc-9c72-a3375baa4eb4"/>
+  </producedTypes>
+  <name>Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Характеристики.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Характеристики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>DefinedType.ТипХарактеристики</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c71121f9-2e0d-4940-a2f1-422c3bd0300a">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВладелецХарактеристики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

@@ -32,9 +32,13 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <definedTypes>DefinedType.ТипХарактеристики</definedTypes>
+  <definedTypes>DefinedType.ВладелецХарактеристики</definedTypes>
   <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.Команды</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеИстории</catalogs>
   <catalogs>Catalog.Задачи</catalogs>
+  <informationRegisters>InformationRegister.ЗначенияХарактеристик</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Характеристики</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60d65294-95ff-43b3-b692-c0eaff60a96a">
+  <producedTypes>
+    <selectionType typeId="b70177b2-96f9-4158-99f8-59b4453a8302" valueTypeId="e34f3ae5-314b-4c11-b706-49d6e2c75864"/>
+    <listType typeId="85f968ea-9b86-4ec0-ab80-9975f6dd56b8" valueTypeId="f21c535a-4d99-47fc-9e1f-07e5e850f1ec"/>
+    <managerType typeId="75db56da-390d-4e4e-a76c-190cc84287ca" valueTypeId="eaf2450a-55f5-4441-91f2-f1b8d2e30c27"/>
+    <recordSetType typeId="0ed328c1-b773-4bd9-b6ae-643519b5e635" valueTypeId="dcd2422a-5123-4cef-aac5-25d07cd310c6"/>
+    <recordKeyType typeId="7bea5b01-855d-4f63-9cba-c46ac1735fb9" valueTypeId="9aa7f4fe-00e2-405f-8006-b87611b68b69"/>
+    <recordType typeId="539d492e-fe0c-4040-9d24-4a316b03db38" valueTypeId="ae62d315-1d7e-4609-bffa-f2e133d71c71"/>
+    <recordManagerType typeId="2b95a3a3-6396-4207-b1cb-89d7cb197084" valueTypeId="9ff0b88d-5b7c-49f3-8c23-e7129c22b147"/>
+  </producedTypes>
+  <name>ЗначенияХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения характеристик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="51909736-272b-4512-b149-596c88fa82c5">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.Характеристики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="413a27c9-184f-4c41-9aa2-7e7330daf5d1">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВладелецХарактеристики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42e2df0e-8a85-4264-95f5-29dfbe169c0c">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.Характеристики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
