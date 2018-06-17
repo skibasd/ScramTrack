@@ -1,41 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="f00e4c30-7eca-4623-b0c4-72fa9e7637ff">
-	<producedTypes>
-		<objectType typeId="68fb302a-efcb-44d8-adf2-88e6ab8f9756"
-			valueTypeId="dc5db59f-3925-4938-9b52-db0dd7823fb9" />
-		<refType typeId="e2a812f9-41e8-4eee-9f64-f9dc18ae57af"
-			valueTypeId="e725ab32-ae0a-4f23-b175-eb1f8987d482">
-			<emptyRef />
-		</refType>
-		<selectionType typeId="5f31e43c-d2af-4901-bcdf-3f778e71db09"
-			valueTypeId="0dff73c3-fa85-4658-a65a-330ba5b02685" />
-		<listType typeId="844fc45a-9a15-4416-baf3-0064ad2b7cce"
-			valueTypeId="20d4d89a-e249-409a-86bd-5d0e14349a1b" />
-		<managerType typeId="5ec33948-834f-455d-b681-d29280291c6e"
-			valueTypeId="37b7714e-7345-438f-abf0-ead997086082" />
-	</producedTypes>
-	<name>Команды</name>
-	<synonym>
-		<key>ru</key>
-		<value>Команды</value>
-	</synonym>
-	<useStandardCommands>true</useStandardCommands>
-	<inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
-	<inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
-	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-	<createOnInput>Use</createOnInput>
-	<dataLockControlMode>Managed</dataLockControlMode>
-	<fullTextSearch>Use</fullTextSearch>
-	<levelCount>2</levelCount>
-	<foldersOnTop>true</foldersOnTop>
-	<codeLength>9</codeLength>
-	<descriptionLength>25</descriptionLength>
-	<codeType>String</codeType>
-	<codeAllowedLength>Variable</codeAllowedLength>
-	<checkUnique>true</checkUnique>
-	<autonumbering>true</autonumbering>
-	<defaultPresentation>AsDescription</defaultPresentation>
-	<editType>InDialog</editType>
-	<choiceMode>BothWays</choiceMode>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00e4c30-7eca-4623-b0c4-72fa9e7637ff">
+  <producedTypes>
+    <objectType typeId="68fb302a-efcb-44d8-adf2-88e6ab8f9756" valueTypeId="dc5db59f-3925-4938-9b52-db0dd7823fb9"/>
+    <refType typeId="e2a812f9-41e8-4eee-9f64-f9dc18ae57af" valueTypeId="e725ab32-ae0a-4f23-b175-eb1f8987d482">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="5f31e43c-d2af-4901-bcdf-3f778e71db09" valueTypeId="0dff73c3-fa85-4658-a65a-330ba5b02685"/>
+    <listType typeId="844fc45a-9a15-4416-baf3-0064ad2b7cce" valueTypeId="20d4d89a-e249-409a-86bd-5d0e14349a1b"/>
+    <managerType typeId="5ec33948-834f-455d-b681-d29280291c6e" valueTypeId="37b7714e-7345-438f-abf0-ead997086082"/>
+  </producedTypes>
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

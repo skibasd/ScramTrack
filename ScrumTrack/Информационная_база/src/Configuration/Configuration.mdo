@@ -32,8 +32,9 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.Команды</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.ПользовательскиеИстории</catalogs>
+  <catalogs>Catalog.Задачи</catalogs>
 </mdclass:Configuration>
