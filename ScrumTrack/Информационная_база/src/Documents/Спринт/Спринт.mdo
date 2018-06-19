@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f121e963-756c-49ad-a533-2430e5d509bb">
+  <producedTypes>
+    <objectType typeId="96627e97-9cc8-4f25-ad72-d2830e65be4b" valueTypeId="677d2b83-8e35-4d10-a8c9-5a1327169cee"/>
+    <refType typeId="69c53e0b-c77c-4548-bc2e-dbdde4848ecb" valueTypeId="dfb034d7-4313-4498-9e0b-7438ef6e65a1">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="a4723a11-f2d5-4325-86d4-edd3a0c93b0b" valueTypeId="9ed0999f-3b7b-499b-8fe4-7690fe528a09"/>
+    <listType typeId="cd8bad61-a187-439c-a2c5-21c5be1c62b0" valueTypeId="95136807-001a-4d1a-befa-190b216bd62e"/>
+    <managerType typeId="18e1e56e-0300-4efc-8818-03c56073497d" valueTypeId="ab5ec6b9-ea9c-4b92-834c-8e586e206350"/>
+  </producedTypes>
+  <name>Спринт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спринт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Спринт.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="4d5c4925-50e8-4549-bd79-782810e9f665">
+    <producedTypes>
+      <objectType typeId="947d040e-0b4e-4d73-b6e5-1058948cbcc1" valueTypeId="7dd2b115-e24b-411f-9583-cc8e84281b49"/>
+      <rowType typeId="191549ca-40c7-4e04-aafd-b2f72b4257e9" valueTypeId="e5a3d376-7b13-4c57-a56b-75f8515afd0b"/>
+    </producedTypes>
+    <name>ЗадачиСпринта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи спринта</value>
+    </synonym>
+    <attributes uuid="8d56d51d-bfef-46c7-8ea6-f81831039444">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Задачи</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
